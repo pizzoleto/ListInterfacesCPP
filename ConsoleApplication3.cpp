@@ -1,5 +1,3 @@
-// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <stdio.h>
@@ -52,7 +50,7 @@ int main()
 		return 0;
 	}
 
-/* Print all the available information on the given interface */
+
 void ifprint(pcap_if_t *d)
 {
 	pcap_addr_t *a;
@@ -102,7 +100,7 @@ void ifprint(pcap_if_t *d)
 
 
 
-/* From tcptraceroute, convert a numeric IP address to a string */
+
 #define IPTOSBUFFERS	12
 char *iptos(u_long in)
 {
